@@ -1,33 +1,83 @@
 body{
-    background-color: bisque;
+    background-color: rgba(36, 1, 21);
+    background-image: url(../assets/images/skull_cupcake.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-section#header h1{
-    color: purple;
-    font-family: 'Black Han Sans', sans-serif;
-    font-size: 2em;
+header h1{
+    background-color: rgba(185, 132, 162, 0.1);
+    color: bisque;    
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4em;
+    height: 1.5em;
     text-align: center;
+    width: 100%;
 }
 
-section#header hr{
-    background-color: navy;
-    border: 0.1em solid navy;
-    width: 20vw;
+hr{
+    background-color: white;
+    border: 0.1em solid white;
+    display: inline;
+    height: 0.1em;
+    left: 23em;
+    position: absolute;
+    top: 8em;
+    width: 50%;
 }
 
 #container {
-    border: 0.3em groove white;
-    background-color: purple;
-    height: 50em;
-    left: 8em;
-    position: absolute;
-    width:50em;
+    border: 0.1em outset rgba(219,102,168);
+    border-radius: 5%;
+    background-color:rgba(219,102,168, 0.3);
+    display: inline-block;
+    height: 60em;
+    left: 17em;
+    position: relative;
+    width: 59em;
 }
 
 div img {
-    border: 0.3em groove bisque;
-    height: 10em;
+    border: 0.1em dooted bisque;
+    border-radius: 20%;
+    height: 13em;
     float: left;
     margin: 3em;
-    width: 10em;
+    width: 13em;
+}
+
+img:hover{
+    border: 0.2em solid purple;
+    transform: scale(1.1);
+}
+
+div#lillys{
+    clear: left;
+}
+
+#clau img{
+    left: 19.5em;
+    position: absolute;
+    top: 39em;
+
+}
+
+p {
+    color: whitesmoke;
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    font-size: 120%;
+    margin-left: -12em;
+    margin-top: 12em;
+    position: absolute;
+}
+
+#clau p{
+    color: whitesmoke;
+    display: inline-block;
+    font-family: 'Russo One', sans-serif;
+    font-size: 120%;
+    margin-left: -28em;
+    margin-top: 28em;
+    position: absolute;
 }
